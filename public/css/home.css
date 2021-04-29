@@ -1,0 +1,378 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+nav {
+    padding: 10px 0px;
+}
+
+.bg-cover {
+    width: calc(220vw / 5.5);
+    /* height: calc(240vw / 5.5);*/
+    height: auto;
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    /* z-index: -10; */
+}
+
+
+.bg-cover .background {
+    width: 100%;
+    height: 100%;
+}
+
+/*logo styles
+.logo-cover {
+    width: 151.3px;
+    height: 56.22px;
+}
+
+.logo-cover img {
+    width: 100%;
+    height: 100%;
+}
+*/
+.main-content {
+    margin-left: 70px;
+}
+
+/*text styles*/
+.hero-text {
+    font-size: calc(3vw + 20px);
+    font-weight: bold;
+    width: 80%;
+    color: #707070;
+    line-height: 1.3;
+}
+
+/*sub-text*/
+.sub-text {
+    font-size: calc(1vw + 15px);
+    width: 40%;
+    color: #707070;
+}
+
+/*CTA*/
+.cta {
+    background-color: #6137E6;
+    color: white;
+    font-weight: bold;
+    height: 55px;
+    width: 330px;
+    top: 2vw;
+    border-radius: 100px;
+    font-size: calc(1vw + 10px);
+    position: relative;
+    outline: none;
+    border: none;
+    box-shadow: 10px 10px 10px #bbb6b6;
+    margin-top: 30px;
+}
+
+.cta:focus, .cta:active, button, button:focus, button:active {
+    outline: none;
+    border: none;
+}
+/*Navbar issues*/
+.row {
+    margin-right: 0px!important;
+    margin-left: 0px!important;
+}
+
+.col-10 {
+    padding-right: 0px!important;
+}
+
+#contactid > li:last-child {
+    margin-right: 0px;
+}
+
+/*how it works*/
+.how-cover {
+    margin-top: 12vw;
+    /*margin-top: calc(15vw + 100px);*/
+    /* margin-bottom: 100px; */
+    padding: 0px 7.5%;
+}
+
+/*feature*/
+.feature-cover {
+    margin-top: 5vw;
+}
+
+.how {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/*line style*/
+.line1 {
+    background-color: #6137E6;
+    height: 10px;
+    width: 50px;
+    border-radius: 100px;
+    position: relative;
+    top: 10px;
+}
+
+.line2 {
+    background-color: #D50192;
+    height: 10px;  
+    width: 150px;
+    border-radius: 100px;
+    left: calc(5vw / 2);
+}
+
+.line3 {
+    background-color: #6137E6;
+    height: 10px;
+    width: 50px;
+    border-radius: 100px;
+    position: relative;
+    top: 10px;
+}
+
+.line4 {
+    background-color: #D50192;
+    height: 10px;
+    width: 130px;
+    border-radius: 100px;
+    left: calc(5vw / 2);
+}
+
+/*How Grid*/
+.how-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    font-size: 20px;
+}
+
+
+.laptop-image img {
+    width: 100%;
+    height: auto;
+}
+
+/*shift underline to right*/
+.right {
+    width: 200px;
+    /*border: 2px solid red;*/
+    float: right;
+}
+
+/*boxes*/
+.boxes-cover {
+    background-image: linear-gradient(to bottom, #6137E6, #D50192);
+    height: 290px;
+    width: 220px;
+    border-radius: 20px;
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxes {
+    background-color: white;
+    height: 90%;
+    width: 90%;
+    border-radius: 20px;
+}
+
+.box-row {
+    display: flex;
+    flex-wrap: wrap;
+    /*justify-content: space-around;*/
+    width: 100%;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+/*Feature Image*/
+.tiny-img {
+    width: 70px;
+    height: 60px;
+    margin: 20px auto;
+}
+
+.tiny-img-two {
+    width: 60px;
+    height: 70px;
+    margin: 20px auto;
+}
+
+.tiny-img-three {
+    width: 80px;
+    height: 80px;
+    margin: 20px auto;
+}
+
+
+.tiny-img img, .tiny-img-two img, .tiny-img-three img {
+    width: 100%;
+    height: 100%;
+}
+
+.f-main {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 5px;
+}
+
+.f-sub {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 0px 5px;
+}
+
+/*contact us*/
+.contact-us {
+    margin-top: 10vw;
+}
+
+.line5 {
+    background-color: #6137E6;
+    height: 10px;
+    width: 50px;
+    border-radius: 100px;
+    position: relative;
+    top: 10px;
+}
+
+.line6 {
+    background-color: #D50192;
+    height: 10px;
+    width: 120px;
+    border-radius: 100px;
+    left: calc(5vw / 2);
+}
+/*contact*/
+.contact-img {
+    width: calc(70vw / 2);
+    height: calc(70vw / 2);
+}
+
+.contact-img img {
+    width: 100%;
+    height: 100%;
+}
+
+/*contact form*/
+.form-div {
+    background-image: linear-gradient(to bottom, #D50192, #6137E6);
+    height: 800px;
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
+    margin: 20px auto;
+}
+
+form {
+    /*background-color: white;*/
+    height: 100%;
+    width: 90%;
+    border-radius: 20px;
+    /*border: 2px solid blue;*/
+}
+
+.form-inner {
+    background-color: white;
+    padding: 30px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.grid-contact {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+/*Contact text*/
+.label {
+    font-size: 25px;
+    color: #707070;
+    font-weight: bold;
+}
+
+/*input style*/
+.input-tag {
+    width: 100%;
+    height: 50px;
+    border: 2px solid #707070;
+    border-radius: 10px;
+    text-indent: 10px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    outline: none;
+}
+
+/*input content*/
+.input-content {
+    width: 100%;
+    height: 200px;
+    border: 2px solid #707070;
+    border-radius: 10px;
+    text-indent: 10px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    outline: none;
+    padding-top: 10px;
+}
+
+/*submit*/
+.submit {
+    width: 100%;
+    height: 80px;
+    border-radius: 200px;
+    color: #6137E6;
+    /*font-size: 30px;*/
+    font-weight: bold;
+    font-size: calc(0.2vw + 25px);
+    background: white;
+    border: none;
+}
+
+.submit-btn {
+    /*background-color: red;*/
+    position: relative;
+    top: 80px;
+}
+
+/*container problems*/
+.contain {
+    padding: 0px 7.5%;
+}
+
+.copyright {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 0px 5px;
+}
+
+/*contact style*/
+.contact-tab {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons img {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    color: red!important;
+}

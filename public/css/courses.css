@@ -1,0 +1,255 @@
+.create-cc-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-size: 20px;
+    color: gray;
+    font-weight: bold;
+    align-items: center;
+}
+
+/*display flex*/
+.cc-flex {
+    display: flex;
+}
+
+.courses-tab {
+    border-bottom: 4px solid #6534E2;
+    padding: 0px 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.channels-tab {
+    padding: 0px 20px;
+    cursor: pointer;
+}
+
+/*create btn*/
+.create-cc-btn {
+    border: none;
+    outline: none;
+    background: #6534E2;
+    color: white;
+    width: 150px;
+    height: 50px;
+    border-radius: 150px;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+/*change width for create btn for other pages*/
+.cc-title-back .create-cc-btn {
+    width: 50px;
+    height: 50px;
+}
+
+.create-cc-btn img {
+    width: 20px;
+    height: auto;
+    margin-left: 10px;
+}
+
+
+/*change margin for create btn for other page*/
+.cc-title-back .create-cc-btn img {
+    margin-left: 0px;
+}
+
+/*popup*/
+.cc-popup {
+    background:#6534E2;
+    width: 230px;
+    float: right;
+    margin-top: 10px;
+    padding: 10px;
+    position: absolute;
+    right: 0px;
+    margin-right: 50px;
+    display: none;
+}
+
+.cc-popup-create, .cc-popup-channels {
+    background: white;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #6534E2;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.cc-gap {
+    margin-top: 2px;
+}
+
+.cc-popup-create img {
+    width: 30px;
+    height: auto;
+    margin-right: 5px;
+}
+
+.cc-popup-channels img {
+    width: 25px;
+    height: auto;
+    margin-right: 8px;
+    margin-left: 2px;
+}
+
+/*triangle*/
+.triangle {
+    width: 30px;
+    height: auto;
+    position: absolute;
+    top: -20px;
+    left: 30px;
+}
+
+/*message*/
+.empty-message {
+    text-align: center;
+    padding-top: calc(50vh - 120px);
+    font-size: 20px;
+    color: gray;
+    font-weight: bold;
+}
+
+/*****/
+.home-back-btn {
+    display: flex!important;
+    justify-content: space-between!important;
+    position: relative;
+}
+
+.announce-num {
+    background: red;
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 13px;
+    bottom: 5px;
+}
+
+.course-back, .course-announcement{
+    width: 50px!important;
+    height: 50px!important;
+}
+
+.cc-back-hide {
+    width: unset;
+    height: unset;
+}
+
+/*remove create, leave plus*/
+/* .create-cc-btn img {
+    margin-left: 0px;
+} */
+
+/*padding for course title*/
+.cc-top-pad {
+    padding: 0px 10px;
+    font-size: 22px!important;
+    color: black!important;
+}
+
+/*hide mobile + button*/
+.mobile-cc-btn {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    /* body {
+        background: green;
+    } */
+
+    .cc-back-hide {
+        visibility: hidden;
+    }
+
+    .cc-plus-hide {
+        display: none;
+    }
+    
+    .mobile-cc-btn {
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+    }
+
+    /*increase + size*/
+    .mobile-cc-btn img {
+        width: 40px;
+        height: auto;
+        margin: 0px;
+    }
+
+    .cc-popup {
+        position: absolute;
+        bottom: 110px;
+        right: 20px;
+        margin-right: 0px;
+    }
+
+    .triangle {
+        position: absolute;
+        transform: rotate(180deg);
+        bottom: -20px;
+        left: 20px;
+        top: unset;
+    }
+
+    /*show mobile + sign*/
+    .mobile-cc-btn {
+        display: flex;
+    }
+
+}
+
+    /*courses created CSS*/
+    .num-tab {
+        background: #8B8B8B;
+        min-width: 40px;
+        min-height: 40px;
+        border-radius: 40px;
+        /* margin-right: 10px; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        font-size: 22px;
+        color: white;
+        align-self: flex-start;
+        margin: 20px 0px;
+    }
+
+    .ct-sub {
+        width: calc(90% - 50px)!important;
+        min-height: 10px;
+        display: flex;
+        align-self: center;
+    }
+
+    /*course content CSS*/
+    .sm-sub-icon {
+        width: 40px;
+        height: 40px;
+        align-self: flex-start;
+        margin-top: 10px;
+    }
+
+    .sm-sub-icon img {
+        width: 100%;
+        height: 100%;
+    }
